@@ -1,3 +1,12 @@
+/**
+ * @name Cat
+ * @version 1.0.0
+ * @description Replaces the cat from neko atsume in vencord decor for cat ears
+ * @author inventionpro
+ * @authorId 816691475844694047
+ * @source https://github.com/inventionpro/Discord-cat-ears
+ */
+
 img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"] {
     display: none;
 }
@@ -6,7 +15,7 @@ div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     content: "";
     position: absolute;
     left: 11px;
-    top: var(--uwutop, 0);
+    top: calc(var(--uwutop, 0px) + var(--uwuclick, 0px));
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -19,6 +28,10 @@ div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=false);
     background-size: contain;
     animation: none;
+}
+
+div.contents_f41bb2:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"]):after {
+    --uwuclick: 1px;
 }
 
 svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
