@@ -69,8 +69,12 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     animation: none;
 }
 
-.messageListItem__6a4fb:has(.repliedMessage_e2bf4a) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):not(:has(.repliedTextContentIcon__4dd82)) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
     --uwutop: 22px;
+}
+
+.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):has(.repliedTextContentIcon__4dd82) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+    --uwutop: 24px;
 }
 
 @keyframes animatedBackground {
