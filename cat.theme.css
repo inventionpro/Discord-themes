@@ -25,7 +25,7 @@ div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     flex: 0 0 auto;
     pointer-events: none;
     z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=false);
+    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
     background-size: contain;
     animation: none;
 }
@@ -47,7 +47,7 @@ svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"],
     user-select: none;
     pointer-events: none;
     z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=false);
+    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
     background-size: contain;
     animation: none;
 }
@@ -64,7 +64,7 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     user-select: none;
     pointer-events: none;
     z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=true);
+    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=1024&passthrough=true);
     background-size: contain;
     animation: none;
 }
@@ -74,8 +74,8 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
 }
 
 @keyframes animatedBackground {
-  0% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=false); }
-  100% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=80&passthrough=true); }
+  0% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false); }
+  100% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=true); }
 }
 
 div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"]):hover::after {
