@@ -7,11 +7,11 @@
  * @source https://github.com/inventionpro/Discord-cat-ears
  */
 
-img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"] {
+img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"] {
     display: none;
 }
 
-div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: 11px;
@@ -30,11 +30,11 @@ div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     animation: none;
 }
 
-div.contents_f41bb2:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"]):after {
+div.contents_f41bb2:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):after {
     --uwuclick: 1px;
 }
 
-svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: -1px;
@@ -51,7 +51,7 @@ svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"],
     background-size: contain;
     animation: none;
 }
-div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: -2px;
@@ -69,11 +69,11 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     animation: none;
 }
 
-.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):not(:has(.repliedTextContentIcon__4dd82)):not(:has(.edited_b20dd9)) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):not(:has(.repliedTextContentIcon__4dd82)):not(:has(.edited_b20dd9)) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 22px;
 }
 
-.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):has(.repliedTextContentIcon__4dd82, .edited_b20dd9) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"])::after {
+.messageListItem__6a4fb:has(.repliedMessage_e2bf4a):has(.repliedTextContentIcon__4dd82, .edited_b20dd9) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 24px;
 }
 
@@ -82,14 +82,14 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
   100% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=true); }
 }
 
-div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"]):hover::after {
+div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
     animation-name: animatedBackground;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-play-state: running;
 }
 
-div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png?animate=false"]):hover::after {
+div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
     animation-name: animatedBackground;
     animation-duration: 1s;
     animation-fill-mode: forwards;
