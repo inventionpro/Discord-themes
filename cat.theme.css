@@ -30,7 +30,7 @@ div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     animation: none;
 }
 
-div.contents_f41bb2:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):after {
+div.contents_f41bb2:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwuclick: 1px;
 }
 
@@ -75,6 +75,14 @@ div.avatarStack__6604a:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
 
 .messageListItem__6a4fb:has(.repliedMessage_e2bf4a):has(.repliedTextContentIcon__4dd82, .edited_b20dd9) div.contents_f41bb2:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 24px;
+}
+
+.systemMessage__6e6a4:has(img[src="/assets/4b32630453d18bff5506.png"]) {
+    --uwutop: 2px;
+    --uwuclick: 0px;
+}
+.systemMessage__6e6a4:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_a7e664 {
+    --uwutop: 0px;
 }
 
 @keyframes animatedBackground {
