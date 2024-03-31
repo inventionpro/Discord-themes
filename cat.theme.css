@@ -5,7 +5,21 @@
  * @author inventionpro
  * @authorId 816691475844694047
  * @source https://github.com/inventionpro/Discord-cat-ears
- */
+*/
+
+/*
+contents_d3ae0d
+avatar__08316
+avatarStack__789b4
+messageListItem__050f9
+repliedMessage__636d2
+repliedTextContentIcon_da8b30
+edited_b20dd9
+messageGroupWrapper__1fce2
+repliedTextPlaceholder__1b40c
+systemMessage_fced96
+markup_a7e664
+*/
 
 img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"] {
     display: none;
@@ -69,26 +83,26 @@ div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     animation: none;
 }
 
-.messageListItem__050f9:has(.repliedMessage__636d2):not(:has(.repliedTextContentIcon__4dd82)):not(:has(.repliedMessage__636d2 .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageListItem__050f9:has(.repliedMessage__636d2):not(:has(.repliedTextContentIcon_da8b30)):not(:has(.repliedMessage__636d2 .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 22px;
 }
 
-.contents_d3ae0dmessageListItem__050f9:has(.repliedMessage__636d2):has(.repliedTextContentIcon__4dd82, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.contents_d3ae0d.messageListItem__050f9:has(.repliedMessage__636d2):has(.repliedTextContentIcon_da8b30, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 24px;
 }
 
-.messageGroupWrapper__1fce2:not(:has(.repliedTextPlaceholder__044d3)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper__1fce2:not(:has(.repliedTextPlaceholder__1b40c)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 10px;
 }
-.messageGroupWrapper__1fce2:has(.repliedTextPlaceholder__044d3) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper__1fce2:has(.repliedTextPlaceholder__1b40c) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 32px;
 }
 
-.systemMessage__6e6a4:has(img[src="/assets/4b32630453d18bff5506.png"]) {
+.systemMessage_fced96:has(img[src="/assets/4b32630453d18bff5506.png"]) {
     --uwutop: 2px;
     --uwuclick: 0px;
 }
-.systemMessage__6e6a4:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_a7e664 {
+.systemMessage_fced96:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_a7e664 {
     --uwutop: 0px;
 }
 
