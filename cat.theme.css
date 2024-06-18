@@ -13,7 +13,7 @@ avatar__08316
 avatarStack__789b4
 messageListItem__050f9
 repliedMessage__636d2
-repliedTextContentIcon_da8b30
+repliedTextContentTrailingIcon__8ab89
 edited_b20dd9
 messageGroupWrapper__1fce2
 repliedTextPlaceholder__1b40c
@@ -83,11 +83,11 @@ div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     animation: none;
 }
 
-.messageListItem__050f9:has(.repliedMessage__636d2):not(:has(.repliedTextContentIcon_da8b30)):not(:has(.repliedMessage__636d2 .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageListItem__050f9:has(.repliedMessage__636d2):not(:has(.repliedTextContentTrailingIcon__8ab89)):not(:has(.repliedMessage__636d2 .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 22px;
 }
 
-.messageListItem__050f9:has(.repliedMessage__636d2):has(.repliedTextContentIcon_da8b30, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageListItem__050f9:has(.repliedMessage__636d2):has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 24px;
 }
 
@@ -97,10 +97,10 @@ div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
 .messageGroupWrapper__1fce2:has(.repliedTextPlaceholder__1b40c) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 32px;
 }
-.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):not(:has(.repliedTextContentIcon_da8b30, .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):not(:has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 32px;
 }
-.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):has(.repliedTextContentIcon_da8b30, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 34px;
 }
 
