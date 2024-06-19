@@ -8,24 +8,24 @@
 */
 
 /*
-contents_d3ae0d
-avatar__08316
-avatarStack__789b4
-messageListItem__050f9
-repliedMessage__636d2
-repliedTextContentTrailingIcon__8ab89
-edited_b20dd9
-messageGroupWrapper__1fce2
-repliedTextPlaceholder__1b40c
-systemMessage_fced96
-markup_a7e664
+contents_ec86aa
+avatar_b2ca13
+avatarStack_c51b4e
+messageListItem_d5deea
+repliedMessage_ec86aa
+repliedTextContentTrailingIcon_ec86aa
+edited_ec86aa
+messageGroupWrapper_ac90a2
+repliedTextPlaceholder_ec86aa
+systemMessage_d5deea
+markup_d6076c
 */
 
 img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"] {
     display: none;
 }
 
-div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: 11px;
@@ -44,11 +44,11 @@ div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eea
     animation: none;
 }
 
-div.contents_d3ae0d:has(.avatar__08316:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+div.contents_ec86aa:has(.avatar_b2ca13:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwuclick: 1px;
 }
 
-svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: -1px;
@@ -65,7 +65,7 @@ svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"],
     background-size: contain;
     animation: none;
 }
-div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     content: "";
     position: absolute;
     left: -2px;
@@ -83,32 +83,32 @@ div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
     animation: none;
 }
 
-.messageListItem__050f9:has(.repliedMessage__636d2):not(:has(.repliedTextContentTrailingIcon__8ab89)):not(:has(.repliedMessage__636d2 .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageListItem_d5deea:has(.repliedMessage_ec86aa):not(:has(.repliedTextContentTrailingIcon_ec86aa)):not(:has(.repliedMessage_ec86aa .edited_ec86aa)) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 22px;
 }
 
-.messageListItem__050f9:has(.repliedMessage__636d2):has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 24px;
+.messageListItem_d5deea:has(.repliedMessage_ec86aa):has(.repliedTextContentTrailingIcon_ec86aa, .edited_ec86aa) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+    --uwutop: 22px;
 }
 
-.messageGroupWrapper__1fce2:not(:has(.repliedTextPlaceholder__1b40c)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper_ac90a2:not(:has(.repliedTextPlaceholder_ec86aa)) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 10px;
 }
-.messageGroupWrapper__1fce2:has(.repliedTextPlaceholder__1b40c) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper_ac90a2:has(.repliedTextPlaceholder_ec86aa) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 32px;
 }
-.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):not(:has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9)) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper_ac90a2:has(.repliedMessage_ec86aa):not(:has(.repliedTextContentTrailingIcon_ec86aa, .edited_ec86aa)) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 32px;
 }
-.messageGroupWrapper__1fce2:has(.repliedMessage__636d2):has(.repliedTextContentTrailingIcon__8ab89, .edited_b20dd9) div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+.messageGroupWrapper_ac90a2:has(.repliedMessage_ec86aa):has(.repliedTextContentTrailingIcon_ec86aa, .edited_ec86aa) div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
     --uwutop: 34px;
 }
 
-.systemMessage_fced96:has(img[src="/assets/4b32630453d18bff5506.png"]) {
+.systemMessage_d5deea:has(img[src="/assets/4b32630453d18bff5506.png"]) {
     --uwutop: 2px;
     --uwuclick: 0px;
 }
-.systemMessage_fced96:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_a7e664 {
+.systemMessage_d5deea:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_d6076c {
     --uwutop: 0px;
 }
 
@@ -117,14 +117,14 @@ div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
   100% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=true); }
 }
 
-div.contents_d3ae0d:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
+div.contents_ec86aa:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
     animation-name: animatedBackground;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-play-state: running;
 }
 
-div.avatarStack__789b4:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
+div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
     animation-name: animatedBackground;
     animation-duration: 1s;
     animation-fill-mode: forwards;
