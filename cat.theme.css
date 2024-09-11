@@ -88,7 +88,7 @@ div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
 }
 
 .messageListItem_d5deea:has(.repliedMessage_f9f2ca):has(.repliedTextContentTrailingIcon_f9f2ca, .edited_f9f2ca) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 22px;
+    --uwutop: 24px;
 }
 
 .messageGroupWrapper_ac90a2:not(:has(.repliedTextPlaceholder_f9f2ca)) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
