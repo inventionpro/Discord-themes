@@ -1,0 +1,16 @@
+/**
+ * @name WidEmbeds
+ * @version 1.0.0
+ * @description Makes embeds wider
+ * @author inventionpro
+ * @authorId 816691475844694047
+ * @source https://github.com/inventionpro/Discord-themes
+*/
+
+/*
+gridContainer_b0068a
+*/
+
+.gridContainer_b0068a {
+    max-width: 650px;
+}
