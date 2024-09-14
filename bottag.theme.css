@@ -1,0 +1,25 @@
+/**
+ * @name Bot Tag
+ * @version 1.0.0
+ * @description Replaces app for bot
+ * @author inventionpro
+ * @authorId 816691475844694047
+ * @source https://github.com/inventionpro/Discord-themes
+*/
+
+/*
+botTag_f9f2ca
+botTagOP_a9e77f
+botText_a9e77f
+*/
+
+span.botTag_f9f2ca:not(.botTagOP_a9e77f) .botText_a9e77f {
+  width: 25px;
+  display: inline-block;
+  color: transparent;
+  word-wrap: normal;
+}
+span.botTag_f9f2ca:not(.botTagOP_a9e77f) .botText_a9e77f::before {
+  content: "BOT";
+  color: #fff;
+}
