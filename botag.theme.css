@@ -7,19 +7,13 @@
  * @source https://github.com/inventionpro/Discord-themes
 */
 
-/*
-botTag_f9f2ca
-botTagOP_a9e77f
-botText_a9e77f
-*/
-
-span.botTag_f9f2ca:not(.botTagOP_a9e77f) .botText_a9e77f {
+span[class*="botTag_"]:not([class*="botTagOP_"]) [class*="botText_"] {
   width: 25px;
   display: inline-block;
   color: transparent;
   word-wrap: normal;
 }
-span.botTag_f9f2ca:not(.botTagOP_a9e77f) .botText_a9e77f::before {
+span[class*="botTag_"]:not([class*="botTagOP_"]) [class*="botText_"]::before {
   content: "BOT";
   color: #fff;
 }
