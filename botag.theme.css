@@ -8,17 +8,22 @@
 */
 
 /* Detect type */
-[data-tag="app"] {
+[class*="botTag_"], [data-tag="app"] {
   --width: 24px;
   --text: "BOT";
 }
-[data-tag="oficial"] {
+[class*="systemTag_"], [data-tag="oficial"], [data-tag="official"] {
   --width: 52px;
   --text: "OFFICIAL";
 }
 [data-tag="webhook"] {
   --width: 62px;
   --text: "WEBHOOK";
+}
+[class*="botTagOP_"] {
+  --width: 18px;
+  --color: var(--brand-560, #4752c4);
+  --text: "OP";
 }
 
 /* Hide old */
@@ -32,5 +37,5 @@ span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_
 /* Add new */
 span[class*="botTag_"][data-tag="app"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="oficial"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="webhook"] [class*="botText_"]::before, span[class*="botTag_"]:not([data-tag]) [class*="botText_"]::before {
   content: var(--text);
-  color: #fff;
+  color: var(--color, #fff);
 }
