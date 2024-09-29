@@ -7,109 +7,95 @@
  * @source https://github.com/inventionpro/Discord-themes
 */
 
-/*
-contents_f9f2ca
-avatar_b2ca13
-avatarStack_c51b4e
-messageListItem_d5deea
-repliedMessage_f9f2ca
-repliedTextContentTrailingIcon_f9f2ca
-edited_f9f2ca
-messageGroupWrapper_ac90a2
-repliedTextPlaceholder_f9f2ca
-systemMessage_d5deea
-markup_f8f345
-*/
-
 img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"] {
-    display: none;
+  display: none;
 }
 
-div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    content: "";
-    position: absolute;
-    left: 11px;
-    top: calc(var(--uwutop, 0px) + var(--uwuclick, 0px));
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    flex: 0 0 auto;
-    pointer-events: none;
-    z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
-    background-size: contain;
-    animation: none;
+div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  top: calc(var(--uwutop, 0px) + var(--uwuclick, 0px));
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  flex: 0 0 auto;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
+  background-size: contain;
+  animation: none;
 }
 
-div.contents_f9f2ca:has(.avatar_b2ca13:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwuclick: 1px;
+div.[class*="contents_"]:has(.[class*="avatar_"]:active):has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwuclick: 1px;
 }
 
-svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    content: "";
-    position: absolute;
-    left: -1px;
-    top: 0;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    pointer-events: none;
-    z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
-    background-size: contain;
-    animation: none;
+svg:not([width="108"], [width="96"], [width="162"], [width="144"], [width="48"], [width="57"]) div.[class*="avatarStack_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=false);
+  background-size: contain;
+  animation: none;
 }
-div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    content: "";
-    position: absolute;
-    left: -2px;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    pointer-events: none;
-    z-index: 1;
-    background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=1024&passthrough=true);
-    background-size: contain;
-    animation: none;
-}
-
-.messageListItem_d5deea:has(.repliedMessage_f9f2ca):not(:has(.repliedTextContentTrailingIcon_f9f2ca)):not(:has(.repliedMessage_f9f2ca .edited_f9f2ca)) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 22px;
+div.[class*="avatarStack_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=1024&passthrough=true);
+  background-size: contain;
+  animation: none;
 }
 
-.messageListItem_d5deea:has(.repliedMessage_f9f2ca):has(.repliedTextContentTrailingIcon_f9f2ca, .edited_f9f2ca) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 24px;
+.[class*="messageListItem_"]:has(.[class*="repliedMessage_"]):not(:has(.[class*="repliedTextContentTrailingIcon_"])):not(:has(.[class*="repliedMessage_"] .[class*="edited_"])) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 22px;
 }
 
-.messageGroupWrapper_ac90a2:not(:has(.repliedTextPlaceholder_f9f2ca)) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 10px;
-}
-.messageGroupWrapper_ac90a2:has(.repliedTextPlaceholder_f9f2ca) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 32px;
-}
-.messageGroupWrapper_ac90a2:has(.repliedMessage_f9f2ca):not(:has(.repliedTextContentTrailingIcon_f9f2ca, .edited_f9f2ca)) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 32px;
-}
-.messageGroupWrapper_ac90a2:has(.repliedMessage_f9f2ca):has(.repliedTextContentTrailingIcon_f9f2ca, .edited_f9f2ca) div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
-    --uwutop: 34px;
+.[class*="messageListItem_"]:has(.[class*="repliedMessage_"]):has(.[class*="repliedTextContentTrailingIcon_"], .[class*="edited_"]) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 24px;
 }
 
-.systemMessage_d5deea:has(img[src="/assets/4b32630453d18bff5506.png"]) {
-    --uwutop: 2px;
-    --uwuclick: 0px;
+.[class*="messageGroupWrapper_"]:not(:has(.[class*="repliedTextPlaceholder_"])) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 10px;
 }
-.systemMessage_d5deea:has(img[src="/assets/4b32630453d18bff5506.png"]) .markup_f8f345 {
-    --uwutop: 0px;
+.[class*="messageGroupWrapper_"]:has(.[class*="repliedTextPlaceholder_"]) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 32px;
+}
+.[class*="messageGroupWrapper_"]:has(.[class*="repliedMessage_"]):not(:has(.[class*="repliedTextContentTrailingIcon_"], .[class*="edited_"])) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 32px;
+}
+.[class*="messageGroupWrapper_"]:has(.[class*="repliedMessage_"]):has(.[class*="repliedTextContentTrailingIcon_"], .[class*="edited_"]) div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"])::after {
+  --uwutop: 34px;
+}
+
+.[class*="systemMessage_"]:has(img[src="/assets/4b32630453d18bff5506.png"]) {
+  --uwutop: 2px;
+  --uwuclick: 0px;
+}
+.[class*="systemMessage_"]:has(img[src="/assets/4b32630453d18bff5506.png"]) .[class*="markup_"] {
+  --uwutop: 0px;
 }
 
 @keyframes animatedBackground {
@@ -117,16 +103,16 @@ div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9
   100% { background-image: url(https://cdn.discordapp.com/avatar-decoration-presets/a_c3cffc19e9784f7d0b005eecdf1b566e.png?size=128&passthrough=true); }
 }
 
-div.contents_f9f2ca:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
-    animation-name: animatedBackground;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
+div.[class*="contents_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
+  animation-name: animatedBackground;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
 
-div.avatarStack_c51b4e:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
-    animation-name: animatedBackground;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
+div.[class*="avatarStack_"]:has(img[src="https://ugc.decor.fieryflames.dev/78fabc8ba9eeaccc79247e1d3c25a921.png"]):hover::after {
+  animation-name: animatedBackground;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
