@@ -7,13 +7,38 @@
  * @source https://github.com/inventionpro/Discord-themes
 */
 
-span[class*="botTag_"]:not([class*="botTagOP_"]) [class*="botText_"] {
-  width: 25px;
+/* Detect type */
+[class*="botTag_"] {
+  --width: 24px;
+  --color: #fff;
+  --text: "BOT";
+}
+[class*="systemTag_"] {
+  --width: 52px;
+  --color: #fff;
+  --text: "OFFICIAL";
+}
+[class*="hasBadges_"] [class*="botTagRegular_"] {
+  --width: 62px;
+  --color: #fff;
+  --text: "WEBHOOK";
+}
+[class*="botTagOP_"] {
+  --width: 18px;
+  --color: var(--brand-560, #4752c4);
+  --text: "OP";
+}
+
+/* Hide old */
+span[class*="botTag_"] [class*="botText_"] {
+  width: var(--width);
   display: inline-block;
   color: transparent;
   word-wrap: normal;
 }
-span[class*="botTag_"]:not([class*="botTagOP_"]) [class*="botText_"]::before {
-  content: "BOT";
-  color: #fff;
+
+/* Add new */
+span[class*="botTag_"] [class*="botText_"]::before {
+  content: var(--text);
+  color: var(--color);
 }
