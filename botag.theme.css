@@ -22,7 +22,7 @@
 }
 
 /* Hide old */
-span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_"][data-tag="oficial"] [class*="botText_"], span[class*="botTag_"][data-tag="webhook"] [class*="botText_"] {
+span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_"][data-tag="oficial"] [class*="botText_"], span[class*="botTag_"][data-tag="webhook"] [class*="botText_"], span[class*="botTag_"]:not([data-tag]) [class*="botText_"] {
   width: var(--width);
   display: inline-block;
   color: transparent;
@@ -30,7 +30,7 @@ span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_
 }
 
 /* Add new */
-span[class*="botTag_"][data-tag="app"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="oficial"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="webhook"] [class*="botText_"]::before {
+span[class*="botTag_"][data-tag="app"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="oficial"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="webhook"] [class*="botText_"]::before, span[class*="botTag_"]:not([data-tag]) [class*="botText_"]::before {
   content: var(--text);
   color: #fff;
 }
