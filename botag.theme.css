@@ -8,29 +8,21 @@
 */
 
 /* Detect type */
-[class*="botTag_"] {
+[data-tag="app"] {
   --width: 24px;
-  --color: #fff;
   --text: "BOT";
 }
-[class*="systemTag_"] {
+[data-tag="oficial"] {
   --width: 52px;
-  --color: #fff;
   --text: "OFFICIAL";
 }
-[class*="hasBadges_"] [class*="botTagRegular_"] {
+[data-tag="webhook"] {
   --width: 62px;
-  --color: #fff;
   --text: "WEBHOOK";
-}
-[class*="botTagOP_"] {
-  --width: 18px;
-  --color: var(--brand-560, #4752c4);
-  --text: "OP";
 }
 
 /* Hide old */
-span[class*="botTag_"]:not([data-tag]) [class*="botText_"] {
+span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_"][data-tag="oficial"] [class*="botText_"], span[class*="botTag_"][data-tag="webhook"] [class*="botText_"] {
   width: var(--width);
   display: inline-block;
   color: transparent;
@@ -38,7 +30,7 @@ span[class*="botTag_"]:not([data-tag]) [class*="botText_"] {
 }
 
 /* Add new */
-span[class*="botTag_"]:not([data-tag]) [class*="botText_"]::before {
+span[class*="botTag_"][data-tag="app"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="oficial"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="webhook"] [class*="botText_"]::before {
   content: var(--text);
-  color: var(--color);
+  color: #fff;
 }
