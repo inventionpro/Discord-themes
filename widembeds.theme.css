@@ -7,10 +7,6 @@
  * @source https://github.com/inventionpro/Discord-themes
 */
 
-/*
-gridContainer_b0068a
-*/
-
-.gridContainer_b0068a {
+[class*="gridContainer_"] {
     max-width: 650px;
 }
