@@ -10,3 +10,6 @@
 * {
   border-radius: 0px !important;
 }
+mask, use {
+    display: none !important;
+}
