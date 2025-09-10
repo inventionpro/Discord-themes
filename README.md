@@ -15,5 +15,8 @@ Replaces the app tags with bot again, this theme is compatible with the moreUser
 ### WidEmbeds
 Makes embeds slightly wider, this makes embeds look better and take less vertical space
 
+### NoGift
+Remove the gift button.
+
 ### Square
 Removes all rounded corners.

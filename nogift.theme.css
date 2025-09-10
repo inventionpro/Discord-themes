@@ -1,0 +1,12 @@
+/**
+ * @name No gift
+ * @version 1.0.0
+ * @description Removes the gift button
+ * @author inventionpro
+ * @authorId 816691475844694047
+ * @source https://github.com/inventionpro/Discord-themes
+*/
+
+[class*='inner'] [class*='buttons'] [class*='button']:has(path[d*="M-10,-2 C-10,-3.105"]) {
+  display: none;
+}
