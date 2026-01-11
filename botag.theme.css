@@ -7,35 +7,16 @@
  * @source https://github.com/inventionpro/Discord-themes
 */
 
-/* Detect type */
-[class*="botTag_"], [data-tag="app"] {
-  --width: 24px;
-  --text: "BOT";
-}
-[class*="systemTag_"], [data-tag="oficial"], [data-tag="official"] {
-  --width: 52px;
-  --text: "OFFICIAL";
-}
-[data-tag="webhook"] {
-  --width: 62px;
-  --text: "WEBHOOK";
-}
-[class*="botTagOP_"] {
-  --width: 18px;
-  --color: var(--brand-560, #4752c4);
-  --text: "OP";
-}
-
 /* Hide old */
-span[class*="botTag_"][data-tag="app"] [class*="botText_"], span[class*="botTag_"][data-tag="oficial"] [class*="botText_"], span[class*="botTag_"][data-tag="webhook"] [class*="botText_"], span[class*="botTag_"]:not([data-tag]) [class*="botText_"] {
-  width: var(--width);
+:not([data-text*="#"],[data-text="Discord"]) + span[class*="-botTag"]:not([class*="-botTagOP"]) [class*="-botText"] {
+  width: 24px;
   display: inline-block;
   color: transparent;
   word-wrap: normal;
 }
 
 /* Add new */
-span[class*="botTag_"][data-tag="app"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="oficial"] [class*="botText_"]::before, span[class*="botTag_"][data-tag="webhook"] [class*="botText_"]::before, span[class*="botTag_"]:not([data-tag]) [class*="botText_"]::before {
-  content: var(--text);
-  color: var(--color, #fff);
+:not([data-text*="#"],[data-text="Discord"]) + span[class*="-botTag"]:not([class*="-botTagOP"]) [class*="-botText"]::before {
+  content: "BOT";
+  color: #fff;
 }
