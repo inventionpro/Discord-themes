@@ -8,7 +8,7 @@
 */
 
 /* Hide old */
-:not([data-text*="#"],[data-text="Discord"]) + span[class*="-botTag"]:not([class*="-botTagOP"]) [class*="-botText"] {
+:not([data-text*="#"],[data-text="Discord"]) + span[class*="botTag"]:not([class*="botTagOP"]) [class*="botText"] {
   width: 24px;
   display: inline-block;
   color: transparent;
@@ -16,7 +16,7 @@
 }
 
 /* Add new */
-:not([data-text*="#"],[data-text="Discord"]) + span[class*="-botTag"]:not([class*="-botTagOP"]) [class*="-botText"]::before {
+:not([data-text*="#"],[data-text="Discord"]) + span[class*="botTag"]:not([class*="botTagOP"]) [class*="botText"]::before {
   content: "BOT";
   color: #fff;
 }
